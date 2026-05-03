@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0ae5f1;
+}
+
+.home {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HERO */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* IMAGE SIDE */
+.hero-image {
+  flex: 1.2;   /* give more space to image */
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 600px;   /* increase size */
+  height: auto;
+  border-radius: 20px;
+}
+
+/* TEXT SIDE */
+.hero-text {
+  flex: 1;
+}
+
+/* SECTION */
+.section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* SCROLL */
+.scroll-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 10px;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* CARD */
+.card {
+  min-width: 220px;
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* ICON */
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* COLORS */
+.green { border-top: 5px solid #2ecc71; }
+.blue { border-top: 5px solid #3498db; }
+.purple { border-top: 5px solid #9b59b6; }
+.orange { border-top: 5px solid #e67e22; }
+
+/* STEP */
+.step-card {
+  min-width: 200px;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3498db;
+  color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* ACTION */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.action-card {
+  width: 48%;
+  padding: 25px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.green-card {
+  border-top: 5px solid #2ecc71;
+}
+
+.blue-card {
+  border-top: 5px solid #3498db;
+}
+
+.action-card span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #3498db;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .action-card {
+    width: 100%;
+  }
+}

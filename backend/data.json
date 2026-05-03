@@ -1,0 +1,14 @@
+{
+  "pharmacies": [
+    {
+      "name": "apolo",
+      "city": "yelahanka"
+    },
+    {
+      "id": "apolo-yelahanka",
+      "name": "apolo",
+      "city": "yelahanka"
+    }
+  ],
+  "stock": []
+}
