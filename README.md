@@ -1,22 +1,23 @@
 # Rural Medicine Network
 
-## Overview
-A full-stack system to manage rural healthcare services with pharmacy support, blockchain-based records, and SMS notifications.
+## 🚀 Overview
+A full-stack healthcare platform designed for rural areas to manage pharmacy services, patient records, and notifications. It integrates blockchain for secure medical records and SMS alerts for communication.
 
-## Features
-- User registration & authentication
-- Pharmacy management
-- Blockchain-based medical record storage
-- SMS alerts for prescriptions and updates
+## 🔥 Features
+- User registration & login
+- Pharmacy inventory & prescription management
+- Blockchain-based record storage (tamper-proof)
+- SMS notifications using Twilio
+- Distance-based service logic (for rural access)
 
-## Tech Stack
+## 🛠 Tech Stack
 - Frontend: React
 - Backend: Node.js, Express
 - Database: MySQL
-- Blockchain: Web3 / Solidity
+- Blockchain: Solidity / Web3
 - SMS: Twilio API
 
-## How to Run
+## ⚙️ Setup Instructions
 
 ### Backend
 cd backend  
@@ -28,12 +29,19 @@ cd frontend
 npm install  
 npm start  
 
-## Environment Variables
-Create a `.env` file:
+## 🔐 Environment Variables
+Create a `.env` file in backend:
 
 TWILIO_ACCOUNT_SID=your_sid  
 TWILIO_AUTH_TOKEN=your_token  
-DB_URL=your_db  
+DB_URL=your_db_url  
 
-## Author
-Your Name
+(Refer `.env.example`)
+
+## 📌 Project Structure
+backend/ → APIs, blockchain, SMS logic  
+frontend/ → UI  
+.env.example → required env variables  
+
+## 👤 Author
+Manushree L
